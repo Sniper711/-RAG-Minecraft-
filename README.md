@@ -1,2 +1,3 @@
-# -RAG-Minecraft-
-"Project to develop a Retrieval-Augmented Generation (RAG) system for discovering various Minecraft walkthroughs."
+# Project-RAG-the-Minecraft-Walkthroughts
+"Project to develop a Retrieval-Augmented Generation (RAG) system for gamers to discover various Minecraft walkthroughs."
+
