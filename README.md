@@ -1,7 +1,8 @@
-# NVIDIA AI-AGENT夏季训练营
-项目名称：AI-AGENT夏季训练营 — RAG智能对话机器人 — 專案：建立RAG查找各種Minecraft密技
-报告日期：2024年8月18日
-项目负责人：[Davis Lin]
+# NVIDIA AI-AGENT夏季训练营  
+項目名稱：AI-AGENT夏季訓練營 — RAG智能對話機器人  
+專案：建立RAG查找各種Minecraft密技
+報告日期：2024年8月18日  
+項目/專案負責人：[林耀南, SNIPER711 LIN]  
 
 
 # 專案：建立RAG查找各種Minecraft密技
