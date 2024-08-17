@@ -5,7 +5,7 @@
 
 
 # 項目概述 - 專案：建立RAG對話機器人查各種 Minecraft 密技
-對初學 Minecraft 的遊戲玩家們來說, 最頭(有)痛(趣)的是, Minecraft 那無數的密技與攻略.  
+對初學 Minecraft 的遊戲玩家們來說, 最頭(有)痛(趣)的是, Minecraft 那五花八門的密技與攻略.  
 網路上琳瑯滿目的 Minecraft 攻略網站, 找起來真的費力, 得要猜中搜尋關鍵字, 還要花時間閱讀比對.  
 若能自動爬文, 把網上的遊戲 walkthroughs 收集抓來做成 RAG, 再以大型語言模型 LLM 做成問答機器人, 對遊戲玩家會很方便, 對遊戲公司想推廣自己的遊戲也很有利.  
 
@@ -33,8 +33,11 @@
   * RAG 自然是要用 Langchain 了, langchain 的線上教學資源與其 API 都很完整, 還有 langsmith 能線上 dashboard 分析.
 
 * 數據的構建：
-  * 我選這個 [Minecraft walkthroughs](https://www.thegamer.com/minecraft-complete-guide-walkthrough/) 網站當第一個嘗試對象, 	
-
+  * 我選這個常用的 [Minecraft walkthroughs](https://www.thegamer.com/minecraft-complete-guide-walkthrough/) 網站當第一個嘗試對象, 建立我的檢索數據庫.
+  * 首先要抓網頁下來
+    ``` py
+    kjsrhfkerwjfrwkj
+    ```
 *	数据的构建（必写）： 说明数据构建过程、向量化处理方法及其优势。
 
 *	功能整合（进阶版RAG必填）：  介绍进阶的语音功能、Agent功能、多模态等功能的整合策略与实现方法。
