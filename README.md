@@ -23,11 +23,12 @@
   * Writer palmyra-fin-70b-32k, palmyra-med-70b, palmyra-med-70b-32k
   * Rakuten rakutenai-7b-Instruct, rakutenai-7b-chat
   * Thudm chatglm3-6b
-  * Baichuan-int baichuan2-13b-chat
-除了推理模型 Reasoning, 還有視覺 Vision、視覺設計 Vision Design、檢索 Retrival、語音 Speech、生物學 Biology、模擬 Simulation、遊戲 Gaming、醫療 Healthcare、工業 Industral 的模型與SDK能任選吃到飽.  
+  * Baichuan-int baichuan2-13b-chat  
+除了以上的推理模型 Reasoning, 在下圖左邊分類上, 還有視覺 Vision、視覺設計 Vision Design、檢索 Retrival、語音 Speech、生物學 Biology、模擬 Simulation、遊戲 Gaming、醫療 Healthcare、工業 Industral 的模型與SDK能任選吃到飽. 其中還有不少是提供 docker images, 如寶山一樣.
+[NVIDIA NIM 服務網址, 這次才知道對所有人開放, 用 email 註冊即刻能用](https://build.nvidia.com/explore/reasoning)
   <img width="1000" alt="截圖 2024-08-17 21 19 23" src="https://github.com/user-attachments/assets/374ebab8-290e-4252-abce-6b2a7875bdb6">
 
-*   
+* 模型選擇：  
 *	模型选择（必写）： 详细描述项目采用的技术方案，包括大模型的选择理由、RAG模型的优势分析。
 
 *	数据的构建（必写）： 说明数据构建过程、向量化处理方法及其优势。
