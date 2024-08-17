@@ -33,7 +33,8 @@
   * RAG 自然是要用 Langchain 了, langchain 的線上教學資源與其 API 都很完整, 還有 langsmith 能線上 dashboard 分析.  
 
 * 數據的構建：  
-  * 我選這個常用的 [Minecraft walkthroughs](https://www.thegamer.com/minecraft-complete-guide-walkthrough/) 網站當第一個嘗試對象, 建立我的檢索數據庫.  
+  * 我選這個常用的 [Minecraft walkthroughs](https://www.thegamer.com/minecraft-complete-guide-walkthrough/) 網站當第一個嘗試對象, 建立我的檢索數據庫.
+  <img width="778" alt="截圖 2024-08-17 22 35 47" src="https://github.com/user-attachments/assets/933451ac-9720-42ef-88af-320b44996275">
   * 大部分有用的 walkthroughs 資料在網頁的下兩層, 所以要改寫一個能在網頁下探更多層超連結的爬蟲, 也要改寫不被網站發現而被屏蔽的爬蟲.  
   * 抓到的文字, Chunk 分段用簡單的1000個字母數切斷一次, 無重疊 overlap 字母數. 若效果不好, 才考慮用單詞數切斷, 加重疊 overlap 單詞數.  
   * 為避免出錯, 增加一段 check_texts_format(texts): 確保收到的都是文字, 才進行下一步 Embedding 處理.
