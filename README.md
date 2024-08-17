@@ -5,5 +5,5 @@
 若能自動爬文, 把網上的遊戲walkthroughs收集抓來做成RAG, 再大型語言模型LLM做成問答機器人, 對遊戲玩家會很方便, 對遊戲公司想推廣自己的遊戲也很有利.  
 
 <img width="798" alt="截圖 2024-08-17 19 31 56" src="https://github.com/user-attachments/assets/89112496-3a8c-4a97-88b7-36267297daab">  
-[photo credit](https://preview.redd.it/here-are-4-different-end-portal-designs-i-came-up-with-v0-jzxw96bgrrf81.jpg?width=1087&format=pjpg&auto=webp&s=a65ab8c6976c8764e8ca8aabbd9a4e6cb6eeb909)
+[photo credit](https://www.reddit.com/r/Minecraftbuilds/comments/sk7hum/here_are_4_different_end_portal_designs_i_came_up/)
 
