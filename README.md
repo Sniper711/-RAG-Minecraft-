@@ -4,12 +4,13 @@
 項目負責人：[林耀南, SNIPER711 LIN]  
 
 
-# 項目概述 - 專案：建立RAG對話機器人查各種 Minecraft 密技  
-對初學 Minecraft 的遊戲玩家們來說, 最頭(有)痛(趣)的是, Minecraft 那五花八門的密技與攻略.  
-網路上琳瑯滿目的 Minecraft 攻略網站, 找起來真的費力, 得要猜中搜尋關鍵字, 還要花時間閱讀比對.  
-若能自動爬文, 把網上的遊戲 walkthroughs 收集抓來做成 RAG, 再以大型語言模型 LLM 做成問答機器人, 對遊戲玩家會很方便, 對遊戲公司想推廣自己的遊戲也很有利.  
+# 項目概述 - 專案：建立RAG對話機器人查遊戲通關秘笈  
+硬核遊戲玩家們, 不是在打遊戲, 就是在搜尋遊戲五花八門的通關秘笈與攻略的路上. 常常遊戲已經破台了, 還因為找到完美通關, 或者剛發現遊戲彩蛋的方法, 而重新玩一遍.
+網路上琳瑯滿目的遊戲攻略網站, 找起來真的費力, 得要猜中搜尋關鍵字, 要搜到即時更新的網站, 還要花時間閱讀比對.  
+若能創造一個自動爬文, 把網上最新的遊戲 walkthroughs 時時收集抓來做成 RAG, 再以大型語言模型 LLM 做成問答機器人, 對遊戲玩家會很方便, 對遊戲公司想推廣自己的遊戲也很有利.  
+![Game Guide Books](https://github.com/user-attachments/assets/d323e0c5-ed93-4346-87ae-f4b71b8a7641)
 
-<img width="500" alt="截圖 2024-08-17 19 31 56" src="https://github.com/user-attachments/assets/89112496-3a8c-4a97-88b7-36267297daab">   [image credit](https://www.reddit.com/r/Minecraftbuilds/comments/sk7hum/here_are_4_different_end_portal_designs_i_came_up/)
+
 
 
 # 技術方案與實施步驟  
