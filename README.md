@@ -1,4 +1,4 @@
-# NVIDIA AI-AGENT 夏季训练营  
+# NVIDIA AI-AGENT 夏季訓練營  
 項目名稱：AI-AGENT 夏季訓練營 — RAG 智能對話機器人  
 報告日期：2024年8月18日  
 項目負責人：[林耀南, SNIPER711 LIN]  
@@ -12,7 +12,11 @@
 <img width="500" alt="截圖 2024-08-17 19 31 56" src="https://github.com/user-attachments/assets/89112496-3a8c-4a97-88b7-36267297daab">   [image credit](https://www.reddit.com/r/Minecraftbuilds/comments/sk7hum/here_are_4_different_end_portal_designs_i_came_up/)
 
 
-# 技术方案与实施步骤
+# 技術方案與實施步驟
+* 服務選擇：首推 NVIDIA NIM 服務. 有玩過模型的就知道, 到處申請 Keys 有多不方便. 而在 NVIDIA NIM 裡面, 只要一隻 NVIDIA API KEY 就能選用大部分的模型, 像這樣吃到飽, 真香.
+  <img width="500" alt="截圖 2024-08-17 21 19 23" src="https://github.com/user-attachments/assets/374ebab8-290e-4252-abce-6b2a7875bdb6">
+
+*   
 *	模型选择（必写）： 详细描述项目采用的技术方案，包括大模型的选择理由、RAG模型的优势分析。
 
 *	数据的构建（必写）： 说明数据构建过程、向量化处理方法及其优势。
