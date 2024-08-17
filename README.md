@@ -13,7 +13,7 @@
 
 
 # 技術方案與實施步驟
-* 服務選擇：首推 NVIDIA NIM 服務. 有玩過模型的就知道, 到處申請 Keys 有多不方便. 而在 NVIDIA NIM 裡面, 只要一隻 NVIDIA API KEY 就能選用大部分的模型, 例如：
+* 服務選擇：首推 NVIDIA NIM 服務. 有玩過模型的就知道, 到處申請 Keys 有多不方便. 而在 NVIDIA NIM 裡面, 只要一隻 NVIDIA API KEY 就能選用大部分的推理模型, 例如：
   * 微軟 phi-3-medium-128k-Instruct
   * Meta llama-3-405b-Instruct, llama-3.1-70b-Instruct, llama-3.1-8b-Instruct
   * NVIDIA nemotron-4-340b-reward, nemotron-codstral-7b-v0.1
@@ -24,9 +24,7 @@
   * Rakuten rakutenai-7b-Instruct, rakutenai-7b-chat
   * Thudm chatglm3-6b
   * Baichuan-int baichuan2-13b-chat
-  這只是推理模型而已, 還有
-其中還有不少提供
-  像這樣吃到飽, 真香.  
+除了推理模型 Reasoning, 還有視覺 Vision、視覺設計 Vision Design、檢索 Retrival、語音 Speech、生物學 Biology、模擬 Simulation、遊戲 Gaming、醫療 Healthcare、工業 Industral 的模型與SDK能任選吃到飽.  
   <img width="1000" alt="截圖 2024-08-17 21 19 23" src="https://github.com/user-attachments/assets/374ebab8-290e-4252-abce-6b2a7875bdb6">
 
 *   
