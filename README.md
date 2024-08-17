@@ -4,7 +4,7 @@
 項目負責人：[林耀南, SNIPER711 LIN]  
 
 
-# 專案：建立RAG查各種 Minecraft 密技
+# 專案：建立RAG對話機器人查各種 Minecraft 密技
 
 對一個初學 Minecraft 的遊戲玩家來說, 最頭(有)痛(趣)的是, Minecraft 那無數的密技與攻略.  
 網路上琳瑯滿目的 Minecraft 攻略網站, 找起來真的頗費力, 要猜中搜尋關鍵字, 還要花時間閱讀比對.  
