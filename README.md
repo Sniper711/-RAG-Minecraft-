@@ -30,8 +30,10 @@
 
 * 模型選擇：
   * 我這次 LLM 模型用 ai-mixtral-8x7b-instruct, 這是一個預訓練的混合專家 (Mixture of Experts, MoE) 模型, 在一開始還沒有想好題目要做自然語言處理、圖像辨識、還是邏輯推理的時候, 模型選 ai-mixtral-8x7b-instruct 是個安全的選擇.  
-  * RAG 
-*	模型选择（必写）： 详细描述项目采用的技术方案，包括大模型的选择理由、RAG模型的优势分析。
+  * RAG 自然是要用 Langchain 了, langchain 的線上教學資源與其 API 都很完整, 還有 langsmith 能線上 dashboard 分析.
+
+* 數據的構建：
+  * 我選這個 [Minecraft walkthroughs](https://www.thegamer.com/minecraft-complete-guide-walkthrough/) 網站當第一個嘗試對象, 	
 
 *	数据的构建（必写）： 说明数据构建过程、向量化处理方法及其优势。
 
