@@ -1,3 +1,9 @@
+# NVIDIA AI-AGENT夏季训练营
+项目名称：AI-AGENT夏季训练营 — RAG智能对话机器人 — 專案：建立RAG查找各種Minecraft密技
+报告日期：2024年8月18日
+项目负责人：[Davis Lin]
+
+
 # 專案：建立RAG查找各種Minecraft密技
 
 對一個初學Minecraft的遊戲玩家來說, 最頭(有)痛(趣)的是, Minecraft那無數的密技與攻略.  
@@ -8,3 +14,4 @@
 
 [photo credit](https://www.reddit.com/r/Minecraftbuilds/comments/sk7hum/here_are_4_different_end_portal_designs_i_came_up/)
 
+這是NVIDIA 
