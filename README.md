@@ -76,14 +76,17 @@
       NVIDIA_API_KEY 只需要申請一支, 當你再次申請時, 前一支 Key 自動失效.  
       NVIDIA NIM 服務裡面所有的 models 都共用同一支 Key, 方便管理.  
 
-*	關鍵代碼實現：
+*	代碼實現(只列出關鍵代碼)：
   *	匯入需要的函式庫, 輸入 NVIDIA_API_KEY 以使用 NVIDIA NIM 的模型.
     <img width="671" alt="nvidia api key" src="https://github.com/user-attachments/assets/6622fd56-6058-424b-9f7c-89391f013b50">
   *	做一個多層網路的爬蟲程式, 見圖中的 def html_document_loader, def get_all_links (能進網頁多層連結的深度爬蟲), def load_all_linked_documents.  
     過程中, 爬蟲程式被 GTAVBase 網站擋住, 所以加做一個 headers 偽裝成真人上網瀏覽, 見圖中的 headers.  
     <img width="733" alt="2" src="https://github.com/user-attachments/assets/e945806c-4bc6-4164-9721-4dd6a23978f4">
-  * 定義 embeddings 數據向量化的函式, 能 depth 設定要抓到第幾層的網站
+  * 定義 embeddings 數據向量化的函式, 能 depth 設定要抓到網站的第幾層深度
     <img width="472" alt="3" src="https://github.com/user-attachments/assets/49da7127-b24c-4100-b105-6deeb5efd2c2">
+  * 先做一個能刪除先前 embedding 資料的程式 (試需要可選用), 這是因為過程中嘗試 embeddings 累積了一些其他網站的資料.
+    然後就是等待漫長的 embedding 時間. 這段 code 我之後要改成 GPU 加速.
+    <img width="356" alt="4" src="https://github.com/user-attachments/assets/dde5a7e5-8477-4c0a-9221-200e9717a27a">
 
   * kk
 *	代码实现（必写）： 列出关键代码的实现步骤，可附上关键代码截图或代码块。
