@@ -51,7 +51,8 @@
 * 環境搭建：
   * 用 Windows 電腦, 安裝 Miniconda [Miniconda官網下載點](https://docs.conda.io/en/latest/miniconda.html)
   * 安裝完之後, 在 Windows 打開 Anaconda Powershell Prompt 終端機.
-    <img width="498" alt="截圖 2024-08-18 08 05 26" src="https://github.com/user-attachments/assets/03a03840-7416-49f8-b521-705db1f82f2b">
+    <img width="425" alt="截圖 2024-08-18 08 06 53" src="https://github.com/user-attachments/assets/cb007005-c33a-405a-bc17-036d0b07c7ea">
+
   * 在打開的終端機, 按照以下的步驟執行環境配置：
     * 
 *	环境搭建（必写）： 描述开发环境的搭建过程，包括必要的软件、库的安装与配置。
