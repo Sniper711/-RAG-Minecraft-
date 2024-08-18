@@ -39,7 +39,7 @@
   <img width="771" alt="截圖 2024-08-18 07 53 46" src="https://github.com/user-attachments/assets/68b4c0f0-1620-4c95-849d-87a95d65e109">
   <div align=center> <img width="478" alt="截圖 2024-08-18 08 01 27" src="https://github.com/user-attachments/assets/d487e964-10c3-4412-98a4-a3a11e9c37e4">
 
-  * 大部分有用的 walkthroughs 資料在網頁的下兩層, 所以要改寫一個能在網頁下探更多層超連結的爬蟲, 也要改寫不被網站發現而被屏蔽的爬蟲.  
+  * 大部分有用的 walkthroughs 資料在網頁的下一層, 所以要改寫一個能在網頁下探更多層超連結的爬蟲, 也要改寫不被網站發現而被屏蔽的爬蟲.  
   * 抓到的文字, Chunk 分段用簡單的1000個字母數切斷一次, 無重疊 overlap 字母數. 若效果不好, 才考慮用單詞數切斷, 加重疊 overlap 單詞數.  
   * 為避免出錯, 增加一段 check_texts_format(texts): 確保收到的都是文字, 才進行下一步 Embedding 處理.
   * Embedding 的模型, 我選擇 NVIDIAEmbeddings 工具類, 調用 NVIDIA NIM 中的 ai-embed-qa-4 向量化模型. 這是一個能 GPU 加速的 embedding 模型, 而要處理的資料多的時候, embedding 的速度就很重要, 使用 NVIDIA NIM 中的 ai-embed-qa-4 向量化模型, 之後我容易能繼續改成 GPU 加速.
@@ -51,8 +51,9 @@
 * 環境搭建：
   * 用 Windows 電腦, 安裝 Miniconda [Miniconda官網下載點](https://docs.conda.io/en/latest/miniconda.html)
   * 安裝完之後, 在 Windows 打開 Anaconda Powershell Prompt 終端機.
+    <img width="498" alt="截圖 2024-08-18 08 05 26" src="https://github.com/user-attachments/assets/03a03840-7416-49f8-b521-705db1f82f2b">
   * 在打開的終端機, 按照以下的步驟執行環境配置：
-    * jfdjf 
+    * 
 *	环境搭建（必写）： 描述开发环境的搭建过程，包括必要的软件、库的安装与配置。
 *	代码实现（必写）： 列出关键代码的实现步骤，可附上关键代码截图或代码块。
 *	测试与调优： 描述测试过程，包括测试用例的设计、执行及性能调优。
