@@ -1,7 +1,7 @@
 # NVIDIA AI-AGENT 夏季訓練營  
 項目名稱：AI-AGENT 夏季訓練營 — RAG 智能對話機器人  
 報告日期：2024年8月18日  
-項目負責人：[林耀南, SNIPER711 LIN]  
+項目負責人：[林耀南, SNIPER711 LIN, Davis Lin]  
 <img width="1231" alt="7" src="https://github.com/user-attachments/assets/8b97a2c1-ff1e-467d-ac9c-482ce0cfe526">
 
 
