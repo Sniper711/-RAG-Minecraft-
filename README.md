@@ -84,9 +84,11 @@
     <img width="733" alt="2" src="https://github.com/user-attachments/assets/e945806c-4bc6-4164-9721-4dd6a23978f4">
   * 定義 embeddings 數據向量化的函式, 能 depth 設定要抓到網站的第幾層深度
     <img width="472" alt="3" src="https://github.com/user-attachments/assets/49da7127-b24c-4100-b105-6deeb5efd2c2">
-  * 先做一個能刪除先前 embedding 資料的程式 (試需要可選用), 這是因為過程中嘗試 embeddings 累積了一些其他網站的資料.
-    然後就是等待漫長的 embedding 時間. 這段 code 我之後要改成 GPU 加速.
+  * 先做一個能刪除先前 embedding 資料的程式 (視需要選用), 這是因為寫程式過程中嘗試 embeddings, 累積了一些其他網站的資料需要被清除.
+    然後就是漫長等待 embedding 的時間. 這段 code 我之後必須改用 GPU 加速.  
     <img width="356" alt="4" src="https://github.com/user-attachments/assets/dde5a7e5-8477-4c0a-9221-200e9717a27a">
+  * 先測一下 LLM 抓 RAG 資料的回答, 看起來很專業
+    <img width="623" alt="5" src="https://github.com/user-attachments/assets/9154f590-8618-4a0f-8cba-eb286a31e409">
 
   * kk
 *	代码实现（必写）： 列出关键代码的实现步骤，可附上关键代码截图或代码块。
