@@ -52,10 +52,30 @@
   * 用 Windows 電腦, 安裝 Miniconda [Miniconda官網下載點](https://docs.conda.io/en/latest/miniconda.html)
   * 安裝完之後, 在 Windows 打開 Anaconda Powershell Prompt 終端機.
     <img width="425" alt="截圖 2024-08-18 08 06 53" src="https://github.com/user-attachments/assets/cb007005-c33a-405a-bc17-036d0b07c7ea">
+  * 在打開的終端機視窗裡：
+    * 建立虛擬環境, 指令 conda create --name ai_endpoint python=3.8
+    * 進入虛擬環境, 指令 conda activate ai_endpoint
+    * 安裝 nvidia_ai_endpoint 工具, 指令 pip install langchain-nvidia-ai-endpoints
+    * 安裝 Jupyter Lab, 指令 pip install jupyterlab
+    * 安裝 langchain_core, 指令 pip install langchain_core
+    * 安裝 langchain, 指令 pip install langchain  
+    * 安裝 matplotlib, 指令 pip install matplotlib  
+    * 安裝 Numpy, 指令 pip install numpy  
+    * 安裝 faiss (這裡沒有GPU可先安裝CPU版本, 之後再換上GPU來高速運算), 指令 pip install faiss-cpu==1.7.2  
+    * 安裝 OPENAI 庫, 指令 pip install openai  
+    * 打開 Jupyter Lab 開始寫code, 指令 jupyter-lab  
+  * 申請 NVIDIA NIM 帳號, 拿 NVIDIA_API_KEY：  
+    * 申請 NVIDIA NIM 帳號：  
+      打開 [NVIDIA NIM](https://build.nvidia.com/explore/discover) 在右上角 login 點一下, 在跳出的視窗輸入自己的 email 申請帳號  
+      <img width="1025" alt="截圖 2024-08-18 08 21 03" src="https://github.com/user-attachments/assets/4613cacf-a789-4b74-9b1f-b6912a8ca217">  
+    * 拿 NVIDIA_API_KEY：  
+      畫面中任選一個模型按下去, 跳轉模型介紹頁面的右面有個 Get API Key 按下去, 會跳出 Generate Key 視窗.  
+      <img width="1001" alt="截圖 2024-08-18 08 27 38" src="https://github.com/user-attachments/assets/c0d7e3b6-66a6-4ec6-aca8-315d7d3eb405">
+      按一下 Generate Key, 把產生的 NVIDIA_API_KEY 複製起來存好 (有效期限一年), 這樣就能開始用 NVIDIA NIM 裡面的許多服務了.  
+      NVIDIA_API_KEY 只有一支, 當你再次申請時, 前一支 Key 自動失效.  
+      NVIDIA NIM 服務裡面所有的 models 共用同一支 Key, 方便管理.  
 
-  * 在打開的終端機, 按照以下的步驟執行環境配置：
-    * 
-*	环境搭建（必写）： 描述开发环境的搭建过程，包括必要的软件、库的安装与配置。
+*	代碼實現：
 *	代码实现（必写）： 列出关键代码的实现步骤，可附上关键代码截图或代码块。
 *	测试与调优： 描述测试过程，包括测试用例的设计、执行及性能调优。
 *	集成与部署： 说明各模块集成方法及最终部署到实际运行环境的步骤。
