@@ -2,6 +2,7 @@
 項目名稱：AI-AGENT 夏季訓練營 — RAG 智能對話機器人  
 報告日期：2024年8月18日  
 項目負責人：[林耀南, SNIPER711 LIN]  
+<img width="1231" alt="7" src="https://github.com/user-attachments/assets/8b97a2c1-ff1e-467d-ac9c-482ce0cfe526">
 
 
 # 項目概述 - 專案：建立RAG對話機器人 - 查最新的遊戲通關秘笈與彩蛋  
