@@ -71,9 +71,10 @@
     * 拿 NVIDIA_API_KEY：  
       畫面中任選一個模型按下去, 跳轉模型介紹頁面的右面有個 Get API Key 按下去, 會跳出 Generate Key 視窗.  
       <img width="1001" alt="截圖 2024-08-18 08 27 38" src="https://github.com/user-attachments/assets/c0d7e3b6-66a6-4ec6-aca8-315d7d3eb405">
-      按一下 Generate Key, 把產生的 NVIDIA_API_KEY 複製起來存好 (有效期限一年), 這樣就能開始用 NVIDIA NIM 裡面的許多服務了.  
-      NVIDIA_API_KEY 只有一支, 當你再次申請時, 前一支 Key 自動失效.  
-      NVIDIA NIM 服務裡面所有的 models 共用同一支 Key, 方便管理.  
+      按一下 Generate Key, 把產生的 NVIDIA_API_KEY 複製起來存好 (有效期限一年), 這樣就能開始用 NVIDIA NIM 裡面的許多服務了.
+      <img width="993" alt="截圖 2024-08-18 08 29 31" src="https://github.com/user-attachments/assets/fd57836a-c0ee-4fd8-9733-0ed42f2d80ee">
+      NVIDIA_API_KEY 只需要申請一支, 當你再次申請時, 前一支 Key 自動失效.  
+      NVIDIA NIM 服務裡面所有的 models 都共用同一支 Key, 方便管理.  
 
 *	代碼實現：
 *	代码实现（必写）： 列出关键代码的实现步骤，可附上关键代码截图或代码块。
