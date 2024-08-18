@@ -76,7 +76,13 @@
       NVIDIA_API_KEY 只需要申請一支, 當你再次申請時, 前一支 Key 自動失效.  
       NVIDIA NIM 服務裡面所有的 models 都共用同一支 Key, 方便管理.  
 
-*	代碼實現：
+*	關鍵代碼實現：
+  *	匯入需要的函式庫, 輸入 NVIDIA_API_KEY 以使用 NVIDIA NIM 的模型.
+    <img width="671" alt="nvidia api key" src="https://github.com/user-attachments/assets/6622fd56-6058-424b-9f7c-89391f013b50">
+  *	做一個多層網路的爬蟲程式, 見圖中的 def html_document_loader, def get_all_links (能進網頁多層連結的深度爬蟲), def load_all_linked_documents.
+    過程中, 爬蟲程式被 GTAVBase 網站擋住, 所以還要一個 headers 偽裝成真人上網瀏覽, 見圖中的 headers.  
+    <img width="733" alt="2" src="https://github.com/user-attachments/assets/e945806c-4bc6-4164-9721-4dd6a23978f4">
+
 *	代码实现（必写）： 列出关键代码的实现步骤，可附上关键代码截图或代码块。
 *	测试与调优： 描述测试过程，包括测试用例的设计、执行及性能调优。
 *	集成与部署： 说明各模块集成方法及最终部署到实际运行环境的步骤。
