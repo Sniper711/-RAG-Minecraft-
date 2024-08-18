@@ -37,7 +37,7 @@
 * 數據的構建：  
   * 我先選我花過很多時間玩的GTAV遊戲, 拿 [GTABase](https://www.gtabase.com/grand-theft-auto-v/missions/) 網站當第一個嘗試對象, 建立我的即時檢索數據庫.
   <img width="771" alt="截圖 2024-08-18 07 53 46" src="https://github.com/user-attachments/assets/68b4c0f0-1620-4c95-849d-87a95d65e109">
-  <img width="478" alt="截圖 2024-08-18 08 01 27" src="https://github.com/user-attachments/assets/d487e964-10c3-4412-98a4-a3a11e9c37e4">
+  <div align=center> <img width="478" alt="截圖 2024-08-18 08 01 27" src="https://github.com/user-attachments/assets/d487e964-10c3-4412-98a4-a3a11e9c37e4">
 
   * 大部分有用的 walkthroughs 資料在網頁的下兩層, 所以要改寫一個能在網頁下探更多層超連結的爬蟲, 也要改寫不被網站發現而被屏蔽的爬蟲.  
   * 抓到的文字, Chunk 分段用簡單的1000個字母數切斷一次, 無重疊 overlap 字母數. 若效果不好, 才考慮用單詞數切斷, 加重疊 overlap 單詞數.  
