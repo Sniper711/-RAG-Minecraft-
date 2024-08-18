@@ -76,7 +76,7 @@
       NVIDIA_API_KEY 只需要申請一支, 當你再次申請時, 前一支 Key 自動失效.  
       NVIDIA NIM 服務裡面所有的 models 都共用同一支 Key, 方便管理.  
 
-*	代碼實現(只列出關鍵代碼)：
+*	代碼實現(只列出關鍵代碼)、測試與調校優化、集成與部署：
   *	匯入需要的函式庫, 輸入 NVIDIA_API_KEY 以使用 NVIDIA NIM 的模型.
     <img width="671" alt="nvidia api key" src="https://github.com/user-attachments/assets/6622fd56-6058-424b-9f7c-89391f013b50">
   *	做一個多層網路的爬蟲程式, 見圖中的 def html_document_loader, def get_all_links (能進網頁多層連結的深度爬蟲), def load_all_linked_documents.  
@@ -87,11 +87,11 @@
   * 先做一個能刪除先前 embedding 資料的程式 (視需要選用), 這是因為寫程式過程中嘗試 embeddings, 累積了一些其他網站的資料需要被清除.
     然後就是漫長等待 embedding 的時間. 這段 code 我之後必須改用 GPU 加速.  
     <img width="356" alt="4" src="https://github.com/user-attachments/assets/dde5a7e5-8477-4c0a-9221-200e9717a27a">
-  * 先測一下 LLM 抓 RAG 資料回答遊戲某個任務的秘笈, 看來是成功的  
+  * 先測一下 LLM 抓 RAG 資料回答遊戲某個任務的秘笈, 看來是成功了  
     <img width="623" alt="5" src="https://github.com/user-attachments/assets/9154f590-8618-4a0f-8cba-eb286a31e409">
   * 那麼就開始做問答機器人了, 用 Gradio, 我想讓他開在一個新的瀏覽器視窗, 左邊是遊戲縮圖, 右邊做遊戲秘笈的文字問答視窗  
     <img width="625" alt="6" src="https://github.com/user-attachments/assets/d5ece68b-311d-499e-a6f5-9c580c839fe6">
-  * 最後, 這就是我的專案成果：建立RAG對話機器人 - 查最新的遊戲通關秘笈與彩蛋
+  * 將醬～ 這就是我的專案成果：建立RAG對話機器人 - 查最新的遊戲通關秘笈與彩蛋  
     <img width="1231" alt="7" src="https://github.com/user-attachments/assets/c28a4084-cd50-461e-9b05-2905cf720213">
 
   * kk
